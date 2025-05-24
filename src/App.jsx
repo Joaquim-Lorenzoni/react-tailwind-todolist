@@ -1,9 +1,15 @@
+import Header from './components/Header';
+import Footer from './components/Footer';
+import TaskList from './components/TaskList'; 
+
 function App() {
   return (
-    <h1 class="text-3xl font-bold underline text-red-700">
-      Hello world!
-    </h1>
-  )
+    <div>
+      <Header />
+      <TaskList />
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
